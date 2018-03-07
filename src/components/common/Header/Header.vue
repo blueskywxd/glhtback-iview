@@ -1,9 +1,9 @@
 <template>
   <div class="header">
-    <div class="head-logo l"><a class="icon-logo"></a></div>
+    <div class="head-logo l"><a class="icon-logo"><i class="ivuicon ivuicon-logo"></i></a></div>
     <div class="head-icon l">
-      <a href="#" class="icon-gl_sosuo"></a>
-      <a href="#" class="icon-gl_gongneng"></a>
+      <a href="#" class="icon-gl_sosuo"><i class="ivuicon ivuicon-gl_sosuo"></i></a>
+      <a href="#" class="icon-gl_gongneng"><i class="ivuicon ivuicon-gl_gongneng"></i></a>
     </div>
     <ul class="head-nav l">
       <li><a href="#" class="focus">系统</a><i></i></li>
@@ -35,7 +35,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
-// @import "../assets/common/common.scss";
-@import "Header"
+<style lang="less">
+    @import './Header.less';
+    @import '../../../styles/icon.less';
 </style>
+<!--@import '../styles/icon.less';-->

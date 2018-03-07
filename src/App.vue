@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Header from './components/Header'
+import Header from './components/common/Header/Header'
 
 export default {
   name: 'App',
@@ -14,9 +14,8 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-// import 'assets/common/base.scss'
+<!--@import './styles/icon.less';-->
+<style>
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
